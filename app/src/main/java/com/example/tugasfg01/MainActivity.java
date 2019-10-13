@@ -46,19 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 if (position ==  0) {
                     Toast.makeText(MainActivity.this, "Multimedia Lab", Toast.LENGTH_SHORT).show();
                 }
-                if (position ==  0) {
+                else if (position ==  1) {
                     Toast.makeText(MainActivity.this, "Artificial Intelligence Lab", Toast.LENGTH_SHORT).show();
                 }
-                if (position ==  0) {
+                else if (position ==  2) {
                     Toast.makeText(MainActivity.this, "Computing Lab", Toast.LENGTH_SHORT).show();
                 }
-                if (position ==  0) {
+                else if (position ==  3) {
                     Toast.makeText(MainActivity.this, "Hardware and Embedded Studio Lab", Toast.LENGTH_SHORT).show();
                 }
-                if (position ==  0) {
-                    Toast.makeText(MainActivity.this, "Network and Opereting System Lab", Toast.LENGTH_SHORT).show();
+                else if (position ==  4) {
+                    Toast.makeText(MainActivity.this, "Network and Operating System Lab", Toast.LENGTH_SHORT).show();
                 }
-                if (position ==  0) {
+                else if (position ==  5) {
                     Toast.makeText(MainActivity.this, "Mobile Innovation Lab", Toast.LENGTH_SHORT).show();
                 }
 
